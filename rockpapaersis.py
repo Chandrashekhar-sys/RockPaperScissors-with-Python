@@ -72,18 +72,6 @@ while True:                                                  #true statement goi
     else:
         print("Type the specific keyword to continue!")
         break
-    print("Do you want to play again? (yup/nope)")
-    # if user input (nope) then condition is True
-    ans = input().lower()
-    if ans == 'yup':
-        continue
-    elif ans == 'nope':
-        print('Final result:\n')
-        print(name +"'s score: " + str(user) + "   ||   computer's score: " + str(comp) + '\n')
-        break
-    else:
-        print("Type the specific keyword to continue!")
-        break
 if (user>comp):
     print("Great! Well Done you really beat it!")
 elif (user<comp):
